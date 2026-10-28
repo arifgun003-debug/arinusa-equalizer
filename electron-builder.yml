@@ -1,0 +1,24 @@
+appId: com.arinusa.equalizer
+productName: ARINUSA EQUALIZER
+copyright: Copyright © 2026 ARINUSA GROUP (Arif Gunawan)
+
+directories:
+  output: dist_electron
+  buildResources: public
+
+files:
+  - dist/**/*
+  - electron/**/*
+  - package.json
+
+win:
+  target:
+    - nsis
+  icon: public/favicon.ico
+
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  artifactName: ARINUSA-Equalizer-Setup-${version}.${ext}

@@ -1,0 +1,6 @@
+{
+  "name": "ARINUSA EQUALIZER",
+  "description": "Professional Windows System Equalizer & Dynamic Island Desktop by ARINUSA GROUP (Arif Gunawan). Real 10-band DSP audio engine, system audio processing, and floating Dynamic Island.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
